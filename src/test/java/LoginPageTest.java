@@ -97,6 +97,7 @@ public class LoginPageTest {
 		Assert.assertEquals(driver.findElement(DASHBOARD_HEADER_FIELD).getText(), "Dashboard",
 				"Dashboard page not found!!");
 		System.out.println("CL test");
+		System.out.println("CL test2");
 	}
 	
 	@Test(priority = 2)
